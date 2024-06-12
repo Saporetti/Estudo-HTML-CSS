@@ -109,6 +109,7 @@ h2{
   height: 40px;
   border-radius: 50%;
   transition: border 0.1s;
+  background: white;
 }
 .contatos{
   display: flex;

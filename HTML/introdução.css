@@ -65,7 +65,7 @@ body {
   margin: 40px auto; /* centraliza horizontalmente*/
   max-width: 1000px;
   width: 100%;
-margin-top: 10px;
+  margin-top: 10px;
   ;
 }
 .bloco-menu h2 {
@@ -112,7 +112,7 @@ h3::before{
 .rodape {
   background-color: #333;
   color: white;
-  padding: 40px;
+  padding: 20px 0px;
   text-align: center;
   width: 100%;
   box-sizing: border-box;
