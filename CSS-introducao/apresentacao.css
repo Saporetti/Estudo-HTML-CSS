@@ -1,0 +1,45 @@
+.apresentacao{
+    max-width: 1200px;
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: left; /*alinha um item no centro de outro*/
+    gap:40px;
+  }
+
+  .apresentacao-titulo{
+    color: #F5F5F5;
+    font-family: "Fira Sans";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+  }
+  
+  .apresentacao-texto{
+    color: #BEBEBE;
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 40ch;
+    position: relative;
+  }
+  
+  .apresentacao-texto::before {
+    content: "";
+    width: 580px;
+    height: 7px;
+    background: #90EE5D;
+    top: -30px;
+    position: absolute;
+  }
+  .apresentacao-texto{
+    margin-top: 50px;
+  }
+
+  .cinza{
+    color: #CCC;
+  }
+

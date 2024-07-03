@@ -1,0 +1,49 @@
+.html-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: left; /*alinha um item no centro de outro*/
+}
+.background{
+  background-color: #F27400;
+  position: relative;
+}
+.background::after{
+  content: "";
+  display: block;
+  width: 1000px;
+  height: 1000px;
+  background: url('../img/detalhe\ maismenos.png') no-repeat center;
+  position: absolute;
+  bottom: -500px;
+  right: 100px;
+}
+
+.subtitulo2{
+  color: #1D1D1D;
+  font-family: "Fira Sans";
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140px; /* 97.222% */
+  text-transform: uppercase;
+  padding: 90px;
+}
+
+.link{
+  grid-row: 2;
+  margin: 50px;
+  margin-top: 0px;
+}
+
+.links{
+  padding: 10px;
+}
+
+.categoria{
+  text-decoration: none;
+  color: #1D1D1D;
+  font-size: 24px;
+  font-weight: 700;
+}

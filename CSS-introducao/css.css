@@ -1,0 +1,11 @@
+.css-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: left; /*alinha um item no centro de outro*/
+}
+
+.background-css{
+ background-color:#5BCEFF;
+}

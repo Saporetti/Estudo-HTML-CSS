@@ -1,0 +1,58 @@
+.header {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /*coloca a lista na direita e deixa o espaço no meio*/
+  align-items: center; /*alinha um item no centro de outro*/
+  margin-bottom: 50px;
+}
+.header h1{
+  color: #FFF;
+font-family: Fira Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header-menu {
+  display: flex; /*distribui um do lado do outro*/
+  flex-wrap: wrap; /*quebra a linha quando diminui a tela*/
+  gap: 10px;
+  justify-content: center; /*quando quebrar o menu ficar no centro*/
+  position: relative;
+}
+
+.header-menu a {
+  font-size: 24px;
+  line-height: 1.3;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #141414;
+  display: block; /*para pegar os valores do padding*/
+}
+
+.header-menu a:hover{
+  color: #f0f0f0;
+  transition: color 0.3s;
+}
+
+  .html{
+    color: #F27400;
+  }
+  .css{
+    color: #5BCEFF;
+  }
+  
+a.html{
+  color: #F27400;
+}
+
+ a.css{
+  color: #5BCEFF;
+}
+
+a.c-apresentacao{
+  color: #90EE5D;
+}

@@ -1,0 +1,151 @@
+
+body {
+  font-family: Fira Sans, Helvetica, sans-serif;
+  margin: 0px;
+  color: #FFF;
+  background: #F27400;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /*alinha um item no centro de outro*/
+  padding: 30px;
+}
+
+
+.header h1{
+  color: #1D1D1D;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.voltar {
+  color: #1D1D1D;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+padding: 0px;
+list-style: none;
+}
+ a:hover {
+  color: #f0f0f0;
+  transition: color 0.3s;
+}
+
+.html-container{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: left; /*alinha um item no centro de outro*/
+  padding: 50px;
+}
+.background{
+  background-color: #1D1D1D;
+}
+
+.categoria{
+  text-decoration: none;
+  color: #1D1D1D;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.titulo{
+  color:  #CCC;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: 140px; /* 97.222% */
+text-transform: uppercase;
+grid-column: 1 /-1;
+margin-top: 50px;
+}
+
+.titulo::after{
+  display: block;
+  content: " ";
+  background: #90EE5D;
+  height: 7px;
+  margin-top: 10px;
+}
+.questionario{
+  grid-column: 1/-1;
+}
+.subtitulo{
+  color: #F5F5F5;
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.subtitulo::before{
+  content: " ";
+  display: inline-block;
+  background-color: #F27400;
+  height: 10px;
+  margin-top: 30px;
+  width: 10px;
+  left: -30px;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.explicacao{
+  color: #BEBEBE;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+
+.tag{
+  color: #F1B9FA;
+}
+
+.img{
+  max-width: 1000px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.footer {
+    max-width: 1000px;
+    padding: 50px;
+    margin: 0 auto; /*coloca a lista na direita e deixa o espaço no meio*/
+  }
+  
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ .footer-list p{
+    color: #1D1D1D;
+  font-size: 24px;
+  font-weight: 700;
+  }
+
+ a {
+    color: #1D1D1D;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .img{
+    width: 100%;
+  }

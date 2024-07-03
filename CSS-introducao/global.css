@@ -1,0 +1,40 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  margin: 0px;
+  color: #FFF;
+  background: #1D1D1D;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+.subtitulo {
+  font-family: Fira Sans;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break:break-all;
+  max-width: 4ch;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.w{
+  color: #F0F0F0;
+}
+
+.links a:hover{
+  color: #F0F0F0;
+  transition: color 0.3s;
+}
